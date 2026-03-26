@@ -1,0 +1,402 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  scroll-behavior: smooth;
+  width: 100%;
+}
+
+.main {
+  width: 100%;
+  height: auto;
+
+}
+
+nav {
+  display: flex;
+  /* background-color: blue; */
+  padding: 15px 0px;
+  backdrop-filter: blur(10px);
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  align-items: center;
+  justify-content: space-around;
+
+  .center {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+
+    ul li {
+      list-style: none;
+      text-align: center;
+
+      a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  button {
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+}
+
+.one {
+  width: 100%;
+
+  /* background-color: red; */
+  .lineone {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1 {
+      font-size: 11rem;
+      margin-right: 434px;
+      font-family: sans-serif;
+
+    }
+
+    p {
+      font-size: 1.2rem;
+      width: fit-content;
+      margin-left: 45px;
+    }
+  }
+}
+
+.linetwo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    margin-top: 0px;
+    font-size: 11rem;
+    margin-right: -445px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+  }
+}
+
+.linethree {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    margin-top: 0px;
+    font-size: 11rem;
+    margin-right: -15px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+  }
+}
+
+.box {
+  width: 70%;
+  height: 742px;
+  background-color: black;
+  margin: 110px auto;
+  background-image: url(https://media.istockphoto.com/id/610664694/photo/isolated-athlete-runner.jpg?s=1024x1024&w=is&k=20&c=qjRJPq_rXD8Tf9YwHpOnXG0BCrxd0AEY_KaLvBfRnak=);
+  background-position: center center;
+  background-size: cover;
+  filter: saturate(-845);
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+
+  h1 {
+    color: white;
+    font-size: 11rem;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    left: 254px;
+    top: -110px;
+    font-family: sans-serif;
+    text-align: center;
+
+  }
+
+}
+
+.ios {
+  position: absolute;
+
+  left: 16%;
+  top: 220%;
+
+}
+
+.box2 {
+  width: 500px;
+  height: 500px;
+  margin-left: 85px;
+
+  background-image: url(https://images.unsplash.com/photo-1740729546884-58d158d76ab2?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+
+  h1 {
+    font-size: 1.1rem;
+    color: black;
+    position: absolute;
+    top: 105%;
+    font-weight: 100;
+    font-family: 'Quicksand', sans-serif;
+    margin: auto;
+  }
+}
+
+.box3 {
+  width: 500px;
+  height: 500px;
+  margin-top: 116px;
+  padding-top: 85px;
+  margin-left: 55%;
+
+  background-image: url(https://media.istockphoto.com/id/2230945360/photo/man-model-and-walking-on-catwalk-with-fashion-confidence-or-showcase-with-audience-style.jpg?s=612x612&w=0&k=20&c=fw1T-RbOjjQVKtbjqdPsfjvhWJFh4J7cXNs5QqATRGI=);
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+
+  h1 {
+    font-size: 1.1rem;
+    color: black;
+    position: absolute;
+    top: 105%;
+    font-weight: 100;
+    font-family: 'Quicksand', sans-serif;
+    margin: auto;
+  }
+}
+
+.circle {
+  padding: 145px;
+  width: 320px;
+  margin: auto;
+  height: 320px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    font-family: "Quicksand", sans-serif;
+  }
+}
+
+.lorem {
+  width: 50%;
+  margin: auto;
+  padding: 50px 0px;
+  font-size: 1.7rem;
+  color: black;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 100;
+  overflow: hidden;
+
+}
+
+.list {
+  display: flex;
+  align-items: start;
+  margin: 45px 50px;
+  justify-content: center;
+
+  ul {
+    list-style: none;
+    text-align: center;
+
+    li {
+      font-size: 1.2rem;
+      color: black;
+      font-family: 'Quicksand', sans-serif;
+    }
+
+  }
+
+  .rightlist {
+    margin-left: 100px;
+  }
+}
+
+.blackbox {
+  width: 100%;
+
+  h1 {
+    font-size: 8rem;
+    color: black;
+    text-align: center;
+    font-family:  sans-serif !important;
+
+    span {
+      -webkit-text-stroke: 1px gray;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}
+
+.blackboxx {
+  width: 100%;
+  padding-top: 145px;
+  height:auto;
+  background-color: black;
+}
+
+/* From Uiverse.io by Yaya12085 */ 
+.form-container {
+  margin: auto;
+  width: 320px;
+  border-radius: 0.75rem;
+  background-color: rgb(0, 0, 0);
+  padding: 2rem;
+  color: rgba(243, 244, 246, 1);
+}
+
+.title {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.form {
+  margin-top: 1.5rem;
+}
+
+.input-group {
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.input-group label {
+  display: block;
+  color: rgba(156, 163, 175, 1);
+  margin-bottom: 4px;
+}
+
+.input-group input {
+  width: 100%;
+  border-radius: 0.375rem;
+  border: 1px solid rgb(0, 0, 0);
+  outline: 0;
+  background-color: rgb(0, 2, 7);
+  padding: 0.75rem 1rem;
+  color: rgba(243, 244, 246, 1);
+}
+
+.input-group input:focus {
+  border-color: rgba(167, 139, 250);
+}
+
+.forgot {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: rgba(156, 163, 175,1);
+  margin: 8px 0 14px 0;
+}
+
+.forgot a,.signup a {
+  color: rgba(243, 244, 246, 1);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.forgot a:hover, .signup a:hover {
+  text-decoration: underline rgba(167, 139, 250, 1);
+}
+
+.sign {
+  display: block;
+  width: 100%;
+  background-color: rgba(167, 139, 250, 1);
+  padding: 0.75rem;
+  text-align: center;
+  color: rgba(17, 24, 39, 1);
+  border: none;
+  border-radius: 0.375rem;
+  font-weight: 600;
+}
+
+.social-message {
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.line {
+  height: 1px;
+  flex: 1 1 0%;
+  background-color: rgba(55, 65, 81, 1);
+}
+
+.social-message .message {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: rgba(156, 163, 175, 1);
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons .icon {
+  border-radius: 0.125rem;
+  padding: 0.75rem;
+  border: none;
+  background-color: transparent;
+  margin-left: 8px;
+}
+
+.social-icons .icon svg {
+  height: 1.25rem;
+  width: 1.25rem;
+  fill: #fff;
+}
+
+.signup {
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: rgba(156, 163, 175, 1);
+}
+footer h1{
+  font-size: 11rem;
+  margin-right: 434px;
+font-family:  sans-serif;
+color: white;
+text-align: center;
+text-transform: uppercase;
+}
